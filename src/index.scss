@@ -1,0 +1,27 @@
+.question-edit-block {
+  padding: 1.25em;
+  border-radius: 0.125em;
+  border: 1px solid #f1f1f1;
+  background-color: #e0e7ef;
+
+  .mark-as-correct {
+    color: #ffd700;
+    position: relative;
+    top: -3px;
+    transition: transform 300ms ease-out;
+
+    &:hover {
+      transform: scale(1.25) rotate(12deg);
+    }
+  }
+
+  .answer-delete {
+    color: red;
+    position: relative;
+    top: -5px;
+
+    &:hover {
+      color: maroon!important;
+    }
+  }
+}
