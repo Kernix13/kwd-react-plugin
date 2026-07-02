@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wordpress/scripts": "^31.6.0",
+    "@wordpress/scripts": "^32.6.0",
     "react-color": "^2.19.3"
   }
 }
